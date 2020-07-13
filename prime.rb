@@ -7,7 +7,7 @@ def prime?(number)
   if number < 0
      return false
   elsif number == 0 || number == 1
-    false
+    return false
   end
   while x < number
     if num % i == 0
