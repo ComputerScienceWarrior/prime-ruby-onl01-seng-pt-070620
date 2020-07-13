@@ -4,8 +4,10 @@
 def prime?(number)
   i = 0
   x = 2
-  if number < 0
-    return false
+  if number <= 0
+    puts "Be sure to account for negative numbers!"
+  elsif
+  
   end
   while x < number
     if num % i == 0
