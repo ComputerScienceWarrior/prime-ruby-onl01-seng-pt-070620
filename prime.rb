@@ -6,8 +6,8 @@ def prime?(number)
   x = 2
   if number < 0
     puts "Be sure to account for negative numbers!"
-  elsif
-    
+  elsif number == 0
+    false
   end
   while x < number
     if num % i == 0
