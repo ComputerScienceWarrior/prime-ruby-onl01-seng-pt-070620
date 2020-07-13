@@ -3,7 +3,7 @@
 
 range = (2...6)
 range = range.to_a
-
+binding.pry
 def prime?(number)
   i = 0
   x = 2
