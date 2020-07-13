@@ -15,8 +15,8 @@ def prime?(number)
   end
   
   range.collect do |num|
+    binding.pry
     if number % num != 0
-      binding.pry
       return true
     elsif number % num == 0
       return false
