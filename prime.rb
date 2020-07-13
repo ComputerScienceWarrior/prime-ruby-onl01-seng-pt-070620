@@ -3,7 +3,6 @@ require 'pry'
 #1. Prime number is divisible ONLY by itself, and 1 (not divisible )
 #primes always have a remainde
 def prime?(number)
-  i = 0
   range = (2...6)
   range = range.to_a #[2, 3, 4, 5]
 
