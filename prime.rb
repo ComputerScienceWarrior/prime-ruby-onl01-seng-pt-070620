@@ -18,5 +18,6 @@ def prime?(number)
     end
     elsif number % num == 0
       return false
+    end
   end
 end
