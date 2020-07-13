@@ -11,8 +11,8 @@ def prime?(number)
   end
   while x < number
     if num % i == 0
-      false
+      return false
     end
-    true
+    return true
   end 
 end
