@@ -9,6 +9,7 @@ def prime?(number)
   elsif number == 0
     false
   elsif number == 1
+    false
   end
   while x < number
     if num % i == 0
