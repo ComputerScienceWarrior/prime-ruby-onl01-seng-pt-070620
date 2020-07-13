@@ -15,4 +15,7 @@ def prime?(number)
     return false
   end
   
+  range.each do |num|
+    binding.pry  
+  end
 end
