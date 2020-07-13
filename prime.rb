@@ -13,6 +13,8 @@ def prime?(number)
   end
   
   range.each do |num|
-    if nu
+    if nummber % num != 0
+      return true
+    end'
   end
 end
