@@ -1,6 +1,9 @@
 #1. Prime number is divisible ONLY by itself, and 1 (not divisible )
 #primes always have a remainde
 
+range = (2...6)
+range.to_a
+
 def prime?(number)
   i = 0
   x = 2
