@@ -4,7 +4,9 @@
 def prime?(number)
   i = 0
   x = 2
-  
+  if number < 0
+    return false
+  end
   while x < number
     if num % i == 0
       false
