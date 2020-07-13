@@ -1,5 +1,5 @@
 #1. Prime number is divisible ONLY by itself, and 1 (not divisible )
-#primes always have a remainder
+#primes always have a remainde
 
 def prime?(number)
   i = 0
@@ -10,9 +10,6 @@ def prime?(number)
     return false
   end
   while x < number
-    if num % i == 0
-      return false
-    end
-    return true
+    
   end 
 end
