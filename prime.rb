@@ -6,7 +6,7 @@ def prime?(number)
   x = 2
   if number < 0
     puts "Be sure to account for negative numbers!"
-  elsif number == 0
+  elsif number == 0 || number == 1
     false
   elsif number == 1
     false
