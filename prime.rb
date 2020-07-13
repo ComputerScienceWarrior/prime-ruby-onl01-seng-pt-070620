@@ -2,7 +2,7 @@
 #primes always have a remainde
 
 range = (2...6)
-range.to_a
+range = range.to_a
 
 def prime?(number)
   i = 0
