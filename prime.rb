@@ -3,12 +3,12 @@
 
 def prime?(number)
   i = 0
+  x = 2
+  
   while x < number
     if num % i == 0
       false
     end
     return true
-    x = 2
-    i += 1
   end 
 end
