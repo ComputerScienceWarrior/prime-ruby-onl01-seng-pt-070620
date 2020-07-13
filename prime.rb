@@ -20,5 +20,4 @@ def prime?(number)
     end
     return false
   end
-  return false
 end
