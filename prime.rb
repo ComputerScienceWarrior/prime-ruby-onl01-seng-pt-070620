@@ -5,7 +5,6 @@ def prime?(number)
   i = 0
   x = 2
   if number < 0
-    puts "Be sure to account for negative numbers!"
     false
   elsif number == 0 || number == 1
     false
