@@ -2,7 +2,7 @@
 #primes always have a remainder
 
 def prime?(number)
-  
+  i = 0
   while x < number
     if num % i == 0
       false
