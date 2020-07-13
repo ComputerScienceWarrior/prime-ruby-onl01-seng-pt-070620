@@ -6,6 +6,8 @@ def prime?(number)
   while x < number
     if num % i == 0
       false
+    end
+    return true
     x = 2
     i += 1
   end 
