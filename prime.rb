@@ -2,9 +2,11 @@
 #primes always have a remainder
 
 def prime?(number)
-  if num
-  x = 2
-  # while x < number
-    
-  # end 
+  
+  while x < number
+    if num % i == 0
+      false
+    x = 2
+    i += 1
+  end 
 end
