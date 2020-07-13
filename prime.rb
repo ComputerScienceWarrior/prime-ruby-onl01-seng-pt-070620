@@ -14,7 +14,6 @@ def prime?(number)
     return true
   end
   
-  
   range.each do |num|
     if number % num != 0
       return true
