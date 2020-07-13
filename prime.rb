@@ -9,7 +9,11 @@ range = range.to_a #[2, 3, 4, 5]
 def prime?(number)
   i = 0
   x = 2
- 
+  if number < 0
+     return false
+  elsif number == 0 || number == 1
+    return false
+  end
   
   range.each do |num|
     binding.pry  
