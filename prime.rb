@@ -4,7 +4,6 @@ require 'pry'
 #primes always have a remainde
 def prime?(number)
   i = 0
-  x = 2
   range = (2...6)
   range = range.to_a #[2, 3, 4, 5]
 
@@ -15,6 +14,6 @@ def prime?(number)
   end
   
   range.each do |num|
-    binding.pry  
+    if 
   end
 end
