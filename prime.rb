@@ -12,7 +12,5 @@ def prime?(number)
   elsif number == 0 || number == 1
     return false
   end
-  while x < number
-    
-  end 
+  
 end
