@@ -14,12 +14,8 @@ def prime?(number)
     return true
   end
   
-  range.collect do |num|
+  range.any? do |num|
     # binding.pry
-    if number % num != 0
-      return true
-    elsif number % num == 0
-      return false
-    end
+    number % num == 0
   end
 end
