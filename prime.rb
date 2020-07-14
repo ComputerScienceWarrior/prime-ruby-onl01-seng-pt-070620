@@ -14,6 +14,6 @@ def prime?(number)
   
   range.any? do |num|
     # binding.pry
-    number % num != 0
+    number % num == 0
   end
 end
