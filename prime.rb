@@ -12,7 +12,7 @@ def prime?(number)
     return false
   end
   
-  range.any? do |num|
+  range.all? do |num|
     binding.pry
     number % num == 0
   end
