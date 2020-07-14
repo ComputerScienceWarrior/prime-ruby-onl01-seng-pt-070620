@@ -13,7 +13,7 @@ def prime?(number)
   end
   
   range.all? do |num|
-    binding.pry
-    number % num == 0
+    # binding.pry
+    number % num != 0
   end
 end
