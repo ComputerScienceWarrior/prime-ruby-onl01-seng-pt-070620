@@ -10,8 +10,6 @@ def prime?(number)
      return false
   elsif number == 0 || number == 1
     return false
-  elsif number == 2
-    return true
   end
   
   range.any? do |num|
